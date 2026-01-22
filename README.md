@@ -1,6 +1,6 @@
 # Multimodal Retrieval-Augmented Generation (RAG) System
-        
-        A sophisticated Multimodal RAG pipeline designed to ingest, index, and query complex PDF documents containing both textual data and visual information (charts, graphs, and financial tables). This system utilizes advanced vision-language models and dual-embedding strategies to provide context-aware responses to both text and image-based queries.
+
+A sophisticated Multimodal RAG pipeline designed to ingest, index, and query complex PDF documents containing both textual data and visual information (charts, graphs, and financial tables). This system utilizes advanced vision-language models and dual-embedding strategies to provide context-aware responses to both text and image-based queries.
 
 
 # 🚀 Key Features
@@ -31,10 +31,16 @@ Hardware: NVIDIA T4 GPU (or better) is highly recommended for CLIP and LLM infer
 
 Environment: Python 3.10+ or Google Colab.
 
-### 2. Dependencies
-Bash
-pip install -q langchain chromadb sentence-transformers pypdf \
-    unstructured[pdf] openai clip-by-openai gradio
+# Install core multimodal RAG dependencies
+pip install -q \
+  langchain \
+  chromadb \
+  sentence-transformers \
+  pypdf \
+  "unstructured[pdf]" \
+  openai \
+  clip-by-openai \
+  gradio
 
 
 ## 🛠️ Technical Workflow
