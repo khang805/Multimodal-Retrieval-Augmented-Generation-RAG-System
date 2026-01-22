@@ -3,6 +3,7 @@
 A sophisticated Multimodal RAG pipeline designed to ingest, index, and query complex PDF documents containing both textual data and visual information (charts, graphs, and financial tables). This system utilizes advanced vision-language models and dual-embedding strategies to provide context-aware responses to both text and image-based queries.
 
 
+
 # 🚀 Key Features
 Multimodal Ingestion: Extracts text via standard parsing and interprets visual data (bar charts, plots) using OCR and CLIP/BLIP vision transformers.
 
